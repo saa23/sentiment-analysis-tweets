@@ -38,3 +38,13 @@ The dataset used is a collection of tweets from Twitter users during the 2019 Pr
     - Hyperparameter Tuning
     - model evaluation
     - predict on test set
+
+
+## 5. Output
+
+By using Random Forest model the result is quite good by accuracy about 60%.
+
+![Learning Curve](./images/rf-before-after-tuning.png)
+
+In the above image, left panel is learning curve of baseline Random Forest Model with red line curve is performance on train set while green line curve on validation set.
+While the right panel is Random Forest after implemented the hyperparameter tuning. It can be seen that after being tuned, the performance is slighly improved by reducing the overfitting.
